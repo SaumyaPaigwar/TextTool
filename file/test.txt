@@ -1,0 +1,14 @@
+hello saumya.
+How are u.
+the second half of ReviewList in listing 3.4.
+After we declare our ListView and its data, we move on to the typical onCreate()
+tasks you’ve already seen, including using a layout defined in an XML file C. This is
+significant with respect to ListActivity because a ListView with the ID name list is
+required if you want to customize the layout, as we’ve done. Note that the ID is
+defined in the layout XML file; we’ll cover that in section 3.3.3. If you don’t provide a
+layout, you can still use ListActivity and ListView, but you just get the system
+default configuration. We’re also defining a UI element that’s used to display the message
+No Data in the event that our List of reviews is empty D. We’re setting several
+specific properties on the ListView, using its customization methods: whether the list
+items themselves are focusable, how many elements can be selected at a time, and the
+View to use when the list is empty
